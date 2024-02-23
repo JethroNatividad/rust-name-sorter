@@ -2,8 +2,18 @@
 // Input: names
 // Process: sort
 // Output: in file separated by newlines
+// names:
+//     Ling, Mai
+//     Johnson, Jim
+//     Zarnecki, Sabrina
+//     Jones, Chris
+//     Jones, Aaron
+//     Swift, Geoffrey
+//     Xiong, Fong
 
 fn main() {
-    println!("Hello, world!");
+    // Initialize a vector of names
+    // Sort alphabetically
+    // write each name to a file
 }
 
