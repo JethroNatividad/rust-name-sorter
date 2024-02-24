@@ -13,6 +13,15 @@
 
 fn main() {
     // Initialize a vector of names
+    let names: Vec<string> = vec![
+        "Ling, Mai".to_string(),
+        "Johnson, Jim".to_string(),
+        "Zarnecki, Sabrina".to_string(),
+        "Jones, Chris".to_string(),
+        "Jones, Aaron".to_string(),
+        "Swift, Geoffrey".to_string(),
+        "Xiong, Fong".to_string(),
+    ]
     // Sort alphabetically
     // write each name to a file
 }
