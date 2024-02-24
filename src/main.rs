@@ -13,7 +13,7 @@
 
 fn main() {
     // Initialize a vector of names
-    let names: Vec<string> = vec![
+    let mut names: Vec<String> = vec![
         "Ling, Mai".to_string(),
         "Johnson, Jim".to_string(),
         "Zarnecki, Sabrina".to_string(),
@@ -21,8 +21,9 @@ fn main() {
         "Jones, Aaron".to_string(),
         "Swift, Geoffrey".to_string(),
         "Xiong, Fong".to_string(),
-    ]
+    ];
     // Sort alphabetically
+    names.sort_by(|a, b| a.cmp(&b));
     // write each name to a file
+    println!("{:?}", names);
 }
-
